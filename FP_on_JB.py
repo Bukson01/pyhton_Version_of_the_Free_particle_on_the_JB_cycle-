@@ -28,3 +28,6 @@ plt.gca().get_yaxis().set_tick_params(direction='out', width=2)
 plt.show()
 
 # Solving for the max value
+# Computing the maximum dimensionless power
+r_sym = symbols('r')
+dim_pr = (p / (r_sym - 1)) - ((r_sym * q) / (r_sym - 1))
