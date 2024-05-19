@@ -31,3 +31,6 @@ plt.show()
 # Computing the maximum dimensionless power
 r_sym = symbols('r')
 dim_pr = (p / (r_sym - 1)) - ((r_sym * q) / (r_sym - 1))
+
+# Perform the differentiation to get the max dimensionless power
+dp_dr = diff(dim_pr, r_sym)
