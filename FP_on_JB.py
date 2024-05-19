@@ -12,3 +12,6 @@ b = 1/4
 c = 1/4**(1/3)
 p = a * b
 q = a * c
+
+# Dimensionless power (P*)
+dim_p = (p / (r - 1)) - ((r * q) / (r - 1))
