@@ -26,3 +26,5 @@ plt.ylabel('p*', fontweight='bold', fontsize=11)
 plt.gca().get_xaxis().set_tick_params(direction='out', width=2)
 plt.gca().get_yaxis().set_tick_params(direction='out', width=2)
 plt.show()
+
+# Solving for the max value
