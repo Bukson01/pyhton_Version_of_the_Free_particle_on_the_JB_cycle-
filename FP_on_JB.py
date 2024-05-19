@@ -34,3 +34,6 @@ dim_pr = (p / (r_sym - 1)) - ((r_sym * q) / (r_sym - 1))
 
 # Perform the differentiation to get the max dimensionless power
 dp_dr = diff(dim_pr, r_sym)
+
+# Solve the resulting differentiation to observe the max values
+coeff = solve(dp_dr, r_sym)
