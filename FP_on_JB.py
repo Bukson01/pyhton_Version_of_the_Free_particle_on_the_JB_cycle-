@@ -37,3 +37,11 @@ dp_dr = diff(dim_pr, r_sym)
 
 # Solve the resulting differentiation to observe the max values
 coeff = solve(dp_dr, r_sym)
+
+# Display the max values
+if not coeff:
+    print('There is no maximum value.')
+else:
+    print('The maximum values are:')
+    for i, value in enumerate(coeff, start=1):
+        print(f'{i} value: {value}')
