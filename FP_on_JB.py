@@ -15,3 +15,6 @@ q = a * c
 
 # Dimensionless power (P*)
 dim_p = (p / (r - 1)) - ((r * q) / (r - 1))
+
+plt.figure()
+plt.plot(r, dim_p, 'r-', linewidth=1)
