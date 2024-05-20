@@ -5,4 +5,4 @@ Using the libraries such as 'numpy for numerical operations, matplotlib for plot
 There are certain parts of the code that could could be advanced and worked on such as the accuracy of the 'diff' function under the sympy library
 
 # Acknowledgement
-This was derived from the previous code written in matlab [Documentation](https://example.com/docs) and then it is integrated into the Python to get a user friendly language.
+This was derived from the previous code written in matlab [Documentation](https://github.com/Bukson01/Performance_analysis_of_the_FreeParticle_on_the_Joule-Brayton_Quantum_Like_Engine) and then it is integrated into the Python to access it from  a user friendly language.
